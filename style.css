@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.brand-logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.384);
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+header {
+    background-color: indianred;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 20px;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav.main-nav ul li a:hover {
+    color: greenyellow;
+    font-size: 40px;
+}
+
+nav.main-nav ul li a.active {
+    color: blue;
+}
